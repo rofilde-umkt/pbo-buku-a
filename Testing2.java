@@ -23,5 +23,11 @@ public class Testing2 {
         System.out.println("Total Harga Buku 3 = " + t3);
         double total = t1 + t2 + t3; 
         System.out.println("Total              = " + total);
+
+
+        System.out.println("Jumlah Buku " + ti.getJumlahBuku());
+
+        System.out.println("Buku yang dimiliki oleh prodi");
+        ti.menampilkanBuku();
     }
 }

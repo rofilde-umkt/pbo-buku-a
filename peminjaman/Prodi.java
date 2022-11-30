@@ -28,4 +28,15 @@ public class Prodi {
 
         return total;
     }   
+
+    public int getJumlahBuku() {
+        return this.jumlahBuku;
+    }
+
+    public void menampilkanBuku() {
+        for(int i=0;  i < this.jumlahBuku; i++) {
+            System.out.print("Judul " + this.buku[i].getJudul());
+            System.out.println(" " + this.buku[i].getHarga());
+        }
+    }
 }

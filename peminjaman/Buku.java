@@ -9,6 +9,16 @@ public class Buku {
     private Penerbit penerbit;
     private Penulis penulis;
 
+    public Buku() {
+        
+    }
+
+    public Buku(String judul, int t, int h) {
+        this.judul = judul;
+        this.tahun = t; 
+        this.halaman = h;
+    }
+
     public void setData(String judul, int t, int h) {
         this.judul = judul;
         this.tahun = t; 
