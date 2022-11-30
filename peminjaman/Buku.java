@@ -4,6 +4,8 @@ public class Buku {
     private String judul;
     private int tahun;
     private int halaman; 
+    private double harga;
+
     private Penerbit penerbit;
     private Penulis penulis;
 
@@ -11,6 +13,17 @@ public class Buku {
         this.judul = judul;
         this.tahun = t; 
         this.halaman = h;
+    }
+
+    public void setData(String judul, int t, int h, double harga) {
+        this.judul = judul;
+        this.tahun = t; 
+        this.halaman = h;
+        this.harga = harga;
+    }
+
+    public double getHarga() {
+        return this.harga;
 
     }
 
